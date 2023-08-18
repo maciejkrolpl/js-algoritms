@@ -1,0 +1,21 @@
+{
+  "name": "js-algoritms",
+  "version": "1.0.0",
+  "description": "Implementations of various useful algorithms.",
+  "type": "module",
+  "scripts": {
+    "test": "npx jasmine"
+  },
+  "author": "Maciej Król",
+  "license": "The Unlicense",
+  "devDependencies": {
+    "jasmine": "^5.1.0",
+    "prettier": "^3.0.2"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 4,
+    "semi": true,
+    "singleQuote": true
+  }
+}
