@@ -195,7 +195,7 @@ describe('test toArray', function () {
     });
 });
 
-describe('remove at', function () {
+describe('test removeAt', function () {
     it('first index', () => {
         const list = new LinkedList(53, 12, 63, 12);
         list.removeAt(0);
@@ -235,7 +235,7 @@ describe('remove at', function () {
     });
 });
 
-describe('remove at', function () {
+describe('test fromArray', function () {
     it('from array', () => {
         const list = LinkedList.fromArray([2,4,6]); 
         expect(list.head.value).toEqual(2);
